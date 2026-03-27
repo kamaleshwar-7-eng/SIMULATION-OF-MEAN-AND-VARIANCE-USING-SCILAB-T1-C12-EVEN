@@ -48,6 +48,7 @@ disp(variance_value);
 
 <img width="846" height="219" alt="Mean and Variance" src="https://github.com/user-attachments/assets/cedea029-0669-426d-80f4-651b0647dce5" />
 
+# Manual Calculations:
 
 # RESULT:
 Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
