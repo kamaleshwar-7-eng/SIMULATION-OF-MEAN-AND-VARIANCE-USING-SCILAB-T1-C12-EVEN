@@ -1,15 +1,15 @@
 # SIMULATION-OF-MEAN-AND-VARIANCE-USING-SCILAB-T1-C12-EVEN
-AIM:
+# AIM:
 
 To write a program for mean, variance and cross correlation in SCILAB and verify the output.
 
-#EQUIPMENTS NEEDED:
+# EQUIPMENTS NEEDED:
 
-.Computer with i3 Processor
+  *Computer with i3 Processor
 
-.SCI LAB
+  *SCI LAB
 
-ALGORITHM:
+# ALGORITHM:
 
 Define the Function: Specify the function you want to simulate. For example, f(x)=sin⁡(x)f(x)=sin(x) or any other function.
 Generate Sample Points: Decide on the range and the number of sample points. Generate these sample points within the desired range.
@@ -17,7 +17,7 @@ Evaluate the Function: Compute the function values at each of these sample point
 Compute Mean, Variance and Cross Correlation: Use Scilab's functions to calculate the mean and variance of the computed function values.
 Display Results: Output the computed mean variance and Cross Correlation
 
-PROCEDURE:
+# PROCEDURE:
 
 1.Refer Algorithms and write code for the experiment.
 
@@ -31,8 +31,23 @@ PROCEDURE:
 
 6.Verify the generated results
 
-PROGRAM:
+# PROGRAM:
+```matlab
+X = [1 4 9 16 25];
+N = length(X);
+mean_value = sum(X) / N;
+variance_value = sum((X - mean_value).^2) / N;
+disp("Mean = ",mean_value);
 
-OUTPUT GRAPH:
 
-RESULT:
+disp("Variance = ");
+disp(variance_value);
+```
+
+# OUTPUT :
+
+<img width="846" height="219" alt="Mean and Variance" src="https://github.com/user-attachments/assets/cedea029-0669-426d-80f4-651b0647dce5" />
+
+
+# RESULT:
+Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
