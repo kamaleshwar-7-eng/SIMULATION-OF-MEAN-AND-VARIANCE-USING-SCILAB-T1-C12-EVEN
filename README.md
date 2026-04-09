@@ -50,5 +50,10 @@ disp(variance_value);
 
 # Manual Calculations:
 
+![MEAN](https://github.com/user-attachments/assets/380e7069-58cb-4190-82d2-7ad773aa578f)
+
+![VARIANCE](https://github.com/user-attachments/assets/0709424b-141e-4182-a112-34d347fe397c)
+
+
 # RESULT:
 Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
